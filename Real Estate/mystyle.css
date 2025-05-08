@@ -1,0 +1,151 @@
+/*global*/
+html{
+    font-size: 62.5%; /*reset html*/
+    /*1rem = 10px*/
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Georgia;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+h1{    
+    font-size: 3.2rem;
+
+}
+h2{
+    font-size: 2.6rem;
+    margin: 2rem 0;
+}
+h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+h4{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+@media(max-width:768px){
+    h2,h3,h4{
+        text-align: center;
+    }
+}
+img{
+    max-width: 100%;
+}
+ul li{
+    list-style-type: none;
+}
+
+/*utlities*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px){
+    .container{
+        width: 95%;
+    }
+}
+
+.btn-details{
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*header*/
+.site-header{
+    background-image: url(./realEstate-img-main/header.jpg);
+    height:30vh;
+    background-position: top center;
+    background-size: cover;
+    color: white;
+}
+
+/*menu*/
+.menu a{
+    color: white;
+    margin-right: 2rem;/*20px*/
+}
+
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+@media(max-width: 768px){
+    .menu-bar{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+}
+/*main*/
+
+.about-container{
+    display: flex;
+}
+
+@media(max-width: 768px){
+    .about-container{
+        flex-direction: column;
+    }
+    .about-item{
+        text-align: center;
+    }
+}
+
+.houses-container{
+    display: flex;
+    gap: 16px;
+}
+
+.houses-item{
+    background-color: lightgrey;
+}
+
+.houses-item-text{
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.info-container{
+    display: flex;
+    gap: 40px;  
+}
+
+.info-numbers{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.green{
+    color:green;
+    margin-left: 15px;
+}
+
+@media(max-width: 768px){
+    .houses-container{
+        flex-direction: column;
+    }
+}

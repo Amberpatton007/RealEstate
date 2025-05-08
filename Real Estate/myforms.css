@@ -1,0 +1,17 @@
+div{
+margin: 12px;
+}
+
+.form-look{
+    display: table-column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/*icons
+
+fb - facebook
+
+in - instagram 
+
+yt - youtube
