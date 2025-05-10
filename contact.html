@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="myforms.css">
+
+    <title>Content</title>
+</head>
+<body>
+    <header class="site-headerb">
+        <div class="container">
+            <div class="menu-bar">
+                <h1 class="mednu-b"><a href="index.html"> Real Estate</a></h1>
+                <nav>
+                    <a class="menu-d" href="about.html">About</a>
+                    <a class="menu-d" href="blog.html">Blog</a>
+                    <a class="menu-d" href="contact.html">Contact</a>
+                </nav>
+    </header>
+
+    <main>
+    <div class="container form-content">
+        <h2>Contact</h2>
+        <h3>Please fill out the form below</h3>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ducimus earum quae aliquid facere deserunt neque nam.</h4>
+    </div>
+    <div class="form-container">
+        <div>
+            <form>
+                <fieldset class="form-look">
+                    <legend>Personal Information</legend>
+                    <div class="form-text">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" placeholder="type your name">
+                    </div>
+
+                    <div class="form-text">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder="jane.doe@gmail.com">
+                    </div>
+
+                    <div class="form-text">
+                        <label for="phonenumber">Input your phone Number:<br />
+                        <small>Format: 123-456-7890</small></label>
+                        <input id="phonenumber" type="tel" placeholder="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+
+                    <div class="form-text">
+                        <label>Message</label>
+                        <textarea maxlength="50">
+                        </textarea>
+                    </div>
+            </form>
+        </div>
+
+        <div>
+            <form>
+                <fieldset class="form-look">
+                    <legend>Product Information</legend>
+
+                    <div class="form-text">
+                        <label>Type:</label>
+                        <select>
+                            <option value="option 1">Loans</option>
+                            <option value="option 2">Homes for Sale</option>
+                            <option value="option 3">Rental Properties</option>
+                        </select>
+                    </div>
+
+                    <div class="form-text">
+                        <label>Number</label>
+                        <textarea maxlength="12">
+                        </textarea>
+                    </div>
+            </form>
+        </div>
+
+        <div>
+            <form>
+                <fieldset class="form-look">
+                    <legend>Preferred Contact Method</legend>
+
+                    <div class="form-textb">Please Choose:</div>
+                    Email <input type="checkbox" value="email">
+                    Telephone <input type="checkbox" value="telephone">
+                    <p>Choose a time for us to reach out to you</p>
+
+
+                        <div class="form-textb">
+                            <label>Date</label>
+                            <input type="date">
+                        </div>
+
+                        <div class="form-textb">
+                            <label>Time</label>
+                            <input type="time">
+                        </div>
+
+            </form>
+        </div>
+
+        <div class="form-btn">
+            <a href="#">Submit</a>
+        </div>
+
+    </div>
+    </main>
+
+    <footer class="footer">
+        <div class="menu-view">
+            <p>Powered by <a href="https://www.zillow.com">Zillow</a></p>
+            <p>Copyright &copy; 2025 | Privacy Policy</p>
+            
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
